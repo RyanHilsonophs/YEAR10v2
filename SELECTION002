@@ -1,0 +1,7 @@
+total = int(input("enter a number below 20 "))
+
+if total > 20:
+  print ("too high")
+  
+else:
+  print ("thank you")
