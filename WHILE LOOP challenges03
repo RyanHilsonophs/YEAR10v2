@@ -1,0 +1,6 @@
+
+f =str(input("what is ur name"))
+number =int(input("enter a number"))
+
+for word in range (number):
+  print (f)
