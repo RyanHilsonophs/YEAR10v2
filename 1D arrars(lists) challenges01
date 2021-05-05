@@ -1,0 +1,7 @@
+cars = []
+
+cars = str(input("ENTER THE NAME OF A CAR BRAND"))
+print (cars)
+
+cars2= str(input("ENTER ANOTHER 2 CAR BRANDS"))
+print(cars,cars2)
