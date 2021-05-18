@@ -1,8 +1,13 @@
+loop = True 
 name = []
 name.append(input("name1 >>>"))
 name.append(input("name2 >>>"))
 name.append(input("name3 >>>"))
 print(name)
 
-
-name2 = str(input("do you want to add another name?,  yes or no")) 
+while loop == True:
+  name2 = str(input("do you want to add another name?,  yes or no")) 
+  if ("yes"):
+    str(input("name >>>"))
+    
+if ("no"):
