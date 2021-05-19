@@ -1,0 +1,24 @@
+NAME1 = ("COMEDY")
+NAME2 = ("HORROR")
+NAME3 = ("DRAMA")
+NAME4 = ("ACTION")
+
+print (NAME1,NAME2,NAME3,NAME4)
+NAME = str(input("enter another movie"))
+
+NAME5 = int(input("where do you want it (0-5)"))
+
+if NAME5 == 0:
+  print (NAME,NAME1,NAME2,NAME3,NAME4)
+  
+if NAME5 == 1:
+  print (NAME1,NAME,NAME2,NAME3,NAME4)
+  
+if NAME5 == 2:
+  print (NAME1,NAME2,NAME,NAME3,NAME4)
+  
+if NAME5 == 3:
+  print (NAME1,NAME2,NAME3,NAME,NAME4)
+  
+if NAME5 == 3:
+  print (NAME1,NAME2,NAME3,NAME,NAME4)
