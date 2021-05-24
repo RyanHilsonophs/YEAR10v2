@@ -1,0 +1,18 @@
+names_list = []
+names = str(input("name 4 foods"))
+names_list = names
+print (names)
+
+choice = str(input("choose which one you want to delete (0-3)"))
+
+if choice == "0":
+  del names_list
+  
+if choice == "1":
+  del names_list[1]
+
+if choice == "2":
+  del names_list[2]
+
+if choice == "3":
+  del names_list[3]
