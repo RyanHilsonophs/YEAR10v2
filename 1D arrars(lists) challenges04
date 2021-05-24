@@ -22,3 +22,6 @@ if NAME5 == 3:
   
 if NAME5 == 3:
   print (NAME1,NAME2,NAME3,NAME,NAME4)
+  
+else:
+  print ("not accepted")
